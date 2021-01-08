@@ -4,7 +4,7 @@ Measure::Everything::Adapter::InfluxDB::Direct - Send stats directly to InfluxDB
 
 # VERSION
 
-version 0.900
+version 1.001
 
 # SYNOPSIS
 
