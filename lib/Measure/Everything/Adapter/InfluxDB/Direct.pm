@@ -1,10 +1,11 @@
 package Measure::Everything::Adapter::InfluxDB::Direct;
+
+# ABSTRACT: Send stats directly to InfluxDB via http
+# VERSION
+
 use strict;
 use warnings;
 
-our $VERSION = '1.000';
-
-# ABSTRACT: Send stats directly to InfluxDB via http
 
 use base qw(Measure::Everything::Adapter::Base);
 use InfluxDB::LineProtocol qw(data2line);
